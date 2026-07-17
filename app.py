@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return f"""
-    <h1>Innovartus SaaS Demo</h1>
+    <h1>Innovartus SaaS Demo v2</h1>
     <p>Status: Running</p>
     <p>Server time: {datetime.datetime.now()}</p>
     """
